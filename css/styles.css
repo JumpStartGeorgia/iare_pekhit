@@ -1,4 +1,19 @@
-img {
-  display: block;
-  margin: 10% auto auto auto;
+
+
+h3.contest-rule {
+  font-size: 1.2em
 }
+
+#announcement {
+  margin: 20px 0 0 0;
+}
+
+#map {
+  border: 2px solid black;
+  padding: 30px;
+  margin: 10px 0px;
+  height: 400px;
+  width: 95%;
+}
+
+
