@@ -20,7 +20,6 @@ marker04.bindPopup("<b>Rustaveli Avenue</b>");
 var marker05 = L.marker([41.727985, 44.768082]).addTo(map);
 marker05.bindPopup("<b>Saburtalo</b>");
 
-# toggle rotation chevron based on collapsed state
 function toggleChevron(e) {
     $(e.target)
         .prev('h3.contest-rule')
