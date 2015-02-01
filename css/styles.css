@@ -1,5 +1,48 @@
+@font-face {
+  font-family: "ArArchyLight";
+  src: url('../fonts/ar-archy-extralight.ttf') format(truetype);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ArArchyNormal;
+  src: url('fonts/ar-archy-regular.ttf') format(truetype);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ArArchyThin";
+  src: url('fonts/ar-archy-thin.ttf') format(truetype);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BPGDejaVuSansExtraLight2012";
+  src: url('fonts/BPG DejaVu Sans ExtraLight 2012.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: "BPGDejaVuSansExtraLightCaps2012";
+  src: url('fonts/BPG DejaVu Sans ExtraLight Caps 2012.ttf') format(truetype);
+}
+
+@font-face {
+  font-family: "BPGNinoEliteBook2013";
+  src: url('../fonts/BPG_Nino_Elite_Book_2013.otf') format(otf);
+}
+
+
+
+
 html, body {
   height: 100%;
+  font-family: ArArchyLight;
+  font-weight: normal;
+}
+
+/** Header Styles **/
+a.navbar-brand {
+  
 }
 
 /** Contest Template Styles **/
