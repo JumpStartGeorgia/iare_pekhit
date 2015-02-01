@@ -31,9 +31,6 @@
   src: url('../fonts/BPG_Nino_Elite_Book_2013.otf') format(otf);
 }
 
-
-
-
 html, body {
   height: 100%;
  
@@ -56,9 +53,13 @@ section.main header h1 {
 }
 
 h3.contest-rule {
-  font-size: 1.2em
+  font-size: 1.2em;
 }
 
+h3.contest-rule:hover {
+  font-size: 1.2em;
+  cursor: pointer;
+}
 .contest-rule {
   margin-left: 20px;
 }
