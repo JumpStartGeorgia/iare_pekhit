@@ -175,6 +175,9 @@ a.download {
 section.geography {
   margin-top: 2em;
 }
+.geography .location-list {
+
+}
 
 strong#deadline {
   display: inline-block;
@@ -201,10 +204,15 @@ section.gallery img:hover {
 /** BS Modal Lightbox Effect **/
 #lightbox .modal-content {
   display: inline-block;
-  text-align: center;   
+  text-align: center;
+  background-color: #103A60;
+  background-image: url("../images/ricepaper.png");
+
 }
 #lightbox .modal-content img {
   opacity: 1.0;
+  padding: 0;
+  margin: 0;
 }
 #lightbox .close {
   opacity: 1;
