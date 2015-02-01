@@ -69,8 +69,19 @@ div.collapse p {
   margin-left: 10px;  
   padding: 0 10px;
 }
-
-
+.location-list li {
+  padding: 0 0 5px 20px;
+  display: block;
+  position: relative;
+}
+.location-list li:before {
+  font-family: 'Glyphicons Halflings';
+  content: '\e080';
+  position: absolute;
+  left: 0px;
+  top:3px;
+  font-size:80%
+}
 #announcement {
   margin: 20px 0 0 0;
 }
