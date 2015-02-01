@@ -23,6 +23,7 @@ h3.contest-rule {
 
 div.collapse p {
   text-align: justify;
+  margin-left: 10px;  
   padding: 0 10px;
 }
 
@@ -31,7 +32,7 @@ div.collapse p {
   margin: 20px 0 0 0;
 }
 
-#map {
+#front-map {
   border: 2px solid #333;
   padding: 30px;
   margin: 10px 0px;
@@ -68,18 +69,23 @@ strong#deadline {
   display: inline-block;
   margin-top: 20px;
 }
-
 section.gallery img {
-  padding: 0 10px 10px 0;
+  padding: 10px 10px 10px 0;
   opacity: 0.6;
+  max-width: 400px; 
+}
+.crop {
+  height: 200px;
+  overflow: hidden;
 }
 section.gallery img:hover {
   opacity: 1.0;
 }
-#site-map {
+#map {
   border: 2px solid #333;
   width: 95%;
-  height: 20em;
+  height: 25em;
+  width: 30em;
 }
 
 /** BS Modal Lightbox Effect **/
@@ -93,7 +99,7 @@ section.gallery img:hover {
 #lightbox .close {
   opacity: 1;
   color: #333333;
-  font-size: 2em;
+  font-size: 2em; 
   background-color: rgba(0, 0, 0, 0.0);
   padding: 5px;
   border-radius: 45px;

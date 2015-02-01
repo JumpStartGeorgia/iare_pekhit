@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Iare Pekhit:Art Project:Hero Square</title>
+    <link rel='stylesheet' href='../css/bootstrap.min.css'>
+    <link rel='stylesheet' href='../css/bootstrap-lightbox.min.css'>
+    <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' />
+    <link rel='stylesheet' href='../css/styles.css' />
+  </head>
+  <body>
+
+    <nav class='navbar navbar-default navbar-static-top'>
+      <div class='container'>
+        <a href='../index_en.html' class='navbar-brand'>
+          Iare Pekhit
+        </a>
+
+        <ul class='nav navbar-nav navbar-right'>
+          <li><a href='#'>About</a></li>
+          <li><a href='../ka/loc2.html'>ქართული</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class='container'>  
+      <section class='row main'>
+        <header class="row">
+          <div class="col-md-6">
+            <img class="loc_logo"src="../images/loc1/loc1_logo.jpg" alt="Location Logo Image" />
+          </div>
+          <div class="col-md-6">
+            <h1>Hero Square, Area In Front of the Circus Building Staircase</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis velit, rhoncus eget aliquet a, consectetur aliquam magna. Sed viverra leo sed ante consectetur, blandit fermentum magna tristique. Phasellus vulputate, est nec consectetur auctor, tellus ex condimentum diam, ut placerat odio tellus vitae nisi. Curabitur fringilla consequat turpis, luctus maximus nulla dictum sit amet. In a dui sit amet diam congue rhoncus vitae at erat. Nam pretium tortor eget ipsum semper condimentum nec a augue. Pellentesque cursus velit id magna tempus suscipit. Pellentesque fringilla at orci eget auctor. Proin vel orci at diam lacinia vestibulum ac accumsan urna. Aliquam placerat, leo et posuere ultrices, elit ipsum porttitor justo, et eleifend libero massa a ipsum. </p>
+            <a href='files/application_form_ENG.pdf' download class='download'><button class="btn btn-success">Download Application!  <i class="glyphicon glyphicon-cloud-download"></i></button></a> <a href='files/loc2.zip' download class='download'><button class="btn btn-info">Download Site Material!  <i class="glyphicon glyphicon-cloud-download"></i></button></a>
+            <strong id="deadline">Application Deadline:</strong> <i>March 4, 2015 00:00</i>
+          </div>
+        </header>
+        
+        <section class="row gallery">        
+          <h1 class="col-md-12">
+            Photo Documentation
+          </h1>
+          <ul>
+            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img1.jpg" alt="Location 2 Image01" /></a></li>
+            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img2.jpg" alt="Location 2 Image02" /></a></li>
+            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img3.jpg" alt="Location 2 Image03" /></a></li>
+            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img4.jpg" alt="Location 2 Image04" /></a></li>
+            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img5.jpg" alt="Location 2 Image05" /></a></li>
+          </ul>
+          
+          <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button>
+                  <div class="modal-content">
+                  <div class="modal-body">
+                    <img src="" alt="" />
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <section class="row geography">
+          <h1 class="col-md-12">
+            Site Layout and Location
+          </h1>
+          <a href="#" data-toggle="modal" data-target="#lightbox"><img class="col-md-5 col-md-offset-1" src="../images/loc2/loc2_plan_schema.jpg" alt="Site Layout"></a>
+          <div class="col-md-5 col-md-offset-1">
+            <div id="map"></div>
+          </div>
+        </section>
+        
+      </section>
+      </div> <!-- .container -->
+      
+      <footer class="row">
+        <div class="container">
+          <ul class="col-md-4 nav">
+          <h1>Contact</h1>
+            <li>
+              <i class="glyphicon glyphicon-phone-alt"></i>
+              <span itemprop="tel">+995 595 1392 69</span>
+            </li>
+            <li>
+              <i class="glyphicon glyphicon-envelope"></i>
+              publicart@iarepekhit.org
+            </li>
+          </ul>
+          <ul class="col-md-4 nav">
+          <h1>Address</h1>
+            <li>
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <span>5 Shevchenko St.</span>
+            </li>
+            <li>
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <span>0108 Tbilisi, Georgia</span>
+            </li>
+          </ul>
+          <ul class="col-md-4 nav">
+          <h1>Social Links</h1>
+            <li>
+              <i class="glyphicon glyphicon-globe"></i>
+              <span>Facebook</span>
+            </li>
+            <li>
+              <i class="glyphicon glyphicon-globe"></i>
+              <span>Twitter</span>
+            </li>
+            <li>
+              <i class="glyphicon glyphicon-globe"></i>
+              <span>YouTube</span>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='../js/bootstrap.min.js'></script>
+    <script src='../js/bootstrap-lightbox.min.js'></script>
+    <script src='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js'></script>
+    <script src='../js/scripts.js'></script>
+    <script src='../js/map_loc2.js'></script>
+  </body>
+</html>
