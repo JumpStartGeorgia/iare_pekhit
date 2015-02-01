@@ -76,7 +76,7 @@ div.collapse p {
 }
 .location-list li:before {
   font-family: 'Glyphicons Halflings';
-  content: '\e080';
+  content: '\e062';
   position: absolute;
   left: 0px;
   top:3px;
