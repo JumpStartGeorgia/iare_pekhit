@@ -33,7 +33,7 @@
 
 @font-face {
   font-family:'DejaVuSansBoldCondensedM';
-  src: url("/DejaVu Sans Bold Condensed M.ttf") format(truetype);
+  src: url("fonts/DejaVu Sans Bold Condensed M.ttf") format(truetype);
 }
 
 html, body {
