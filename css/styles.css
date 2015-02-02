@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ArArchyLight";
-  src: url('../fonts/ar-archy-extralight.ttf') format(truetype);
+  src: url('/fonts/ar-archy-extralight.ttf') format(truetype);
   font-style: normal;
 }
 
@@ -12,28 +12,33 @@
 
 @font-face {
   font-family: "ArArchyThin";
-  src: url('fonts/ar-archy-thin.ttf') format(truetype);
-  font-style: normal;
+  src: url('/fonts/ar-archy-thin.ttf') format(truetype);
+  
 }
 
 @font-face {
-  font-family: "../fonts/BPGDejaVuSansExtraLight2012";
-  src: url('fonts/BPG DejaVu Sans ExtraLight 2012.ttf') format(truetype);
+  font-family: "BPGDejaVuSansExtraLight2012";
+  src: url('/fonts/BPG DejaVu Sans ExtraLight 2012.ttf') format(truetype);
 }
 
 @font-face {
   font-family: "BPGDejaVuSansExtraLightCaps2012";
-  src: url('fonts/BPG DejaVu Sans ExtraLight Caps 2012.ttf') format(truetype);
+  src: url('/fonts/BPG DejaVu Sans ExtraLight Caps 2012.ttf') format(truetype);
 }
 
 @font-face {
   font-family: "BPGNinoEliteBook2013";
-  src: url('../fonts/BPG_Nino_Elite_Book_2013.otf') format(otf);
+  src: url('/fonts/BPG_Nino_Elite_Book_2013.otf') format(otf);
+}
+
+@font-face {
+  font-family:'DejaVuSansBoldCondensedM';
+  src: url("/DejaVu Sans Bold Condensed M.ttf") format(truetype);
 }
 
 html, body {
-  height: 100%;
-  font-family: BPGDejaVuSansExtraLight2012;
+    
+  font-family: "DejaVuSansBoldCondensedM";
 }
 
 body {
@@ -135,7 +140,6 @@ a#download button {
 }
 
 #front-map {
-  border: 4px solid rgba(255, 219, 167, 0.4);
   padding: 30px;
   margin: 10px 0px;
   height: 400px;
@@ -196,9 +200,9 @@ section.gallery img:hover {
   opacity: 1.0;
 }
 
-.schema {
-  border: 4px dashed rgba(255, 219, 167, 0.4);  
+.schema {  
   padding: 0;
+  border: 4px dashed rgba(255, 219, 167, 0.4);
 }
 
 .schema img {
