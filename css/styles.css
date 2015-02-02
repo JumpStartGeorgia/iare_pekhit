@@ -196,28 +196,21 @@ section.gallery img:hover {
   opacity: 1.0;
 }
 
-.location-schema {
-  border: 4px dashed rgba(255, 219, 167, 0.4);
-  height: 17em;
+.schema {
+  border: 4px dashed rgba(255, 219, 167, 0.4);  
+  padding: 0;
+}
+
+.schema img {
+  height: 240px;
+  width: 100%;
   overflow: hidden;
 }
 
-.location schema a {
-  padding: 0;
-  margin: 0;
-}
-
-.location schema img {
-  padding: 0;
-  margin: 0;
-  height: 200px;
+.schema #map {
+  height: 240px;
+  width: 100%;
   
-}
-
-#map {
-  height: 20em;
-  width: 30em;
-  border: 4px dashed rgba(255, 219, 167, 0.4);
 }
 
 /** BS Modal Lightbox Effect **/
