@@ -28,12 +28,13 @@
 
 @font-face {
   font-family: "BPGNinoEliteBook2013";
-  src: url('/fonts/BPG_Nino_Elite_Book_2013.otf') format(otf);
+  src: url('/fonts/BPG_Nino_Elite_Book_2013.otf') format(otf),
+  src: local('BPGNinoEliteBook2013'), url("/fonts/BPG_Nino_Elite_Book_2013.otf");
 }
 
 @font-face {
   font-family:'DejaVuSansBoldCondensedM';
-  src: url("fonts/DejaVu Sans Bold Condensed M.ttf") format(truetype);
+  src: url("fonts/DejaVu Sans Bold Condensed M.ttf");
 }
 
 html, body {
