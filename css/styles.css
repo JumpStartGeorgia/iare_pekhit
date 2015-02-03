@@ -25,10 +25,20 @@
   src: url("fonts/DejaVu Sans Light M.ttf");
 }
 
+@font-face {
+  font-family:'ArArchExtralight';
+  src: url("fonts/ar-archy-extralight.ttf");
+}
+
+
+
+
+BPG_Nino_Elite_Book_2013.otf
+
 /** General Styles  **/
 
 html, body {
-  font-family: "DejaVuSansLightM";
+  font-family: DejaVuSansBoldCondensedM;
   height: 100%;
 }
 
@@ -55,7 +65,7 @@ h3 {
 }
 
 p {
-  font-family: BPGDejaVuSansExtraLight2012;  
+  font-family: BPGNinoEliteBook2013;  
 }
 
 a {
