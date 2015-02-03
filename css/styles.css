@@ -71,7 +71,6 @@ a:hover {
 
 .navbar-static-top {
   background-color: rgba(237, 129, 36, 0.6);
-  background-image: url("images/subtle_grunge.png") repeat;
   padding: 1em;
   box-shadow: 0px 2px 2px #888888;
   
@@ -180,11 +179,15 @@ aside.side-block img {
 /** Location Styles **/
 
 .description {
-
+  padding: 2.0em 0;
 }
 
 .geography {
-  margin: 20px 0 0 0;
+  padding: 2.0em 0;
+}
+
+.gallery {
+  padding: 2.0em 0;
 }
 
 img.loc_logo {
@@ -194,16 +197,16 @@ img.loc_logo:hover {
   opacity: 1.0;
 } 
 
-.geography ul {
-  height: 10em;
+.geography ul.location-list li {
+  display: block;
 }
 
-section.gallery img {
-  margin: 10px 10px 10px 10px;
+.gallery img {
+  margin: 10px;
   opacity: 0.6;
 }
 
-section.gallery img:hover {
+.gallery img:hover {
   opacity: 1.0;
 }
 
@@ -259,7 +262,7 @@ section.gallery img:hover {
 .footer {
   position: relative;
   margin-top: 50px; /* negative value of footer height */
-  height: 20em;
+  height: 12em;
   clear:both;
   padding-top:20px;
 
