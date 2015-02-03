@@ -1,35 +1,18 @@
-@font-face {
-  font-family: "ArArchyLight";
-  src: url('/fonts/ar-archy-extralight.ttf') format(truetype);
-  font-style: normal;
-}
-
-@font-face {
-  font-family: ArArchyNormal;
-  src: url('fonts/ar-archy-regular.ttf') format(truetype);
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ArArchyThin";
-  src: url('/fonts/ar-archy-thin.ttf') format(truetype);
-  
-}
+/** Fonts **/
 
 @font-face {
   font-family: "BPGDejaVuSansExtraLight2012";
-  src: url('/fonts/BPG DejaVu Sans ExtraLight 2012.ttf') format(truetype);
+  src: url('fonts/BPG DejaVu Sans ExtraLight 2012.ttf') format(truetype);
 }
 
 @font-face {
   font-family: "BPGDejaVuSansExtraLightCaps2012";
-  src: url('/fonts/BPG DejaVu Sans ExtraLight Caps 2012.ttf') format(truetype);
+  src: url('fonts/BPG DejaVu Sans ExtraLight Caps 2012.ttf') format(truetype);
 }
 
 @font-face {
-  font-family: "BPGNinoEliteBook2013";
-  src: url('/fonts/BPG_Nino_Elite_Book_2013.otf') format(otf),
-  src: local('BPGNinoEliteBook2013'), url("/fonts/BPG_Nino_Elite_Book_2013.otf");
+  font-family: 'BPGNinoEliteBook2013';
+  src: url("fonts/BPG_Nino_Elite_Book_2013.otf") format(otf)
 }
 
 @font-face {
@@ -37,23 +20,48 @@
   src: url("fonts/DejaVu Sans Bold Condensed M.ttf");
 }
 
-html, body {
-    
+@font-face {
+  font-family:'DejaVuSansLightM';
+  src: url("fonts/DejaVu Sans Light M.ttf");
+}
 
+/** General Styles  **/
+
+html, body {
+  font-family: "DejaVuSansLightM";
+  height: 100%;
+}
+
+
+.main-content {
+  min-height: 100%;
 }
 
 body {
   margin: 0;
-  background: url("../images/ricepaper_v3_@2X.png") repeat;
+  background: url(../images/ricepaper.png) repeat;
 }
 
 h1 {
   font-size: 2.5em;
 }
 
+h2 {
+  font-size: 2.0em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: BPGDejaVuSansExtraLight2012;  
+}
+
 a {
   color: #333333;
 }
+
 a:hover {
   color: #333333;
   text-decoration: none;
@@ -62,55 +70,73 @@ a:hover {
 /** Header Styles **/
 
 .navbar-static-top {
-  background-color: #84C9AF;
-  background-image: url("../images/ricepaper.png");
-  padding: 40px;
-  border-bottom: 4px solid rgba(82, 168, 136, 0.3);
-}
-nav {}
-nav .container {  
+  background-color: rgba(237, 129, 36, 0.6);
+  background-image: url("images/subtle_grunge.png") repeat;
+  padding: 1em;
+  box-shadow: 0px 2px 2px #888888;
   
 }
 
-nav a.navbar-brand {
+a.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand {
+  height: 100%;
   font-weight: normal;
   font-size: 2.6em;
   color: #33916D;
+  box-shadow: 2px 2px 2px #888888;
 }
 
-/** Contest Template Styles **/
-
-section.main {
- min-height: 100%;
- height: 100%;
+.navbar-brand img {
+  height: 3em;
+  vertical-align: middle;
 }
 
-section.main header h1 {
-  margin-left: .4em;
+/** Contest Styles **/
+
+img.main-banner {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  box-shadow: 2px 2px 2px #888888;
 }
 
-h3.contest-rule {
-  font-size: 1.2em;
+#contest-rules {
+  background-color: rgba(70, 161, 178, 0.4);
+  padding: 2em;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
 }
 
-h3.contest-rule:hover {
-  font-size: 1.2em;
-  cursor: pointer;
-}
-.contest-rule {
-  margin-left: 20px;
+#contest-rules .collapse {
+  margin: 0 0 0 2em;
 }
 
-div.collapse p {
-  text-align: justify;
-  margin-left: 10px;  
-  padding: 0 10px;
+.schedule-list li {
+  padding: 0 0 5px 20px;
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 1.5em;
 }
+
+.schedule-list li:before {
+  font-family: 'Glyphicons Halflings';
+  content: '\e023';
+  position: absolute;
+  left: 0px;
+  top:3px;
+  font-size:80%
+}
+
 .location-list li {
   padding: 0 0 5px 20px;
-  display: block;
+  display: inline-block;
   position: relative;
+  margin: 0 0 0 1.5em;
 }
+
 .location-list li:before {
   font-family: 'Glyphicons Halflings';
   content: '\e062';
@@ -120,90 +146,75 @@ div.collapse p {
   font-size:80%
 }
 
-a#download button {
-  display: block;   
-  margin-bottom: 10px;
-}
-#announcement {
-  margin: 20px 0 0 0;
-}
-#announcement h1 {
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-#announcement p img {
-  float: left;
-  margin: 0 10px 5px 0;
-}
-
-.well {
-  background-image: url("../images/ricepaper.png");
-}
-
 #front-map {
   padding: 30px;
   margin: 10px 0px;
   height: 400px;
   width: 95%;
+  box-shadow: 2px 2px 2px #888888;
 }
 
-footer {
-  background-color: #BA7E29;
-  color: #F8F8F8;
-  margin-top: 50px;
-  height: 200px;
-  background-image: url("../images/ricepaper.png");
-  padding: 40px;
-  border-top: 4px solid rgba(148, 93, 16, 0.3);
-  color: #945D10;
+/** Sidebar **/
+
+.side-block {
+  padding: 10px 10px 10px 15px;
+  margin-bottom: 0 0 10px 0;
+  border-radius: 10px;
+  background-color: rgba(161, 205, 89, 0.6);
+  box-shadow: 2px 2px 2px #888888;
 }
 
+.side-block button {
+  display: block;
+}
 
-/** Location Template Styles **/
+aside.side-block {
+    margin: 10px 0 10px 0;
+}
+
+aside.side-block img {
+  display: block;
+  margin: 0 auto;
+}
+
+/** Location Styles **/
+
+.description {
+
+}
+
+.geography {
+  margin: 20px 0 0 0;
+}
+
 img.loc_logo {
   opacity: 0.6;
 }
 img.loc_logo:hover {
   opacity: 1.0;
-}
-section.main header {
-  margin-bottom: 50px;
-}
-section.main header img {
-  height: 25em;  
-}
-section.main header h1 {
-}
-a.download {
-  margin: 0 50px 0px 0;
-}
-section.geography {
-  margin-top: 2em;
-}
-.geography .location-list {
+} 
 
+.geography ul {
+  height: 10em;
 }
 
-strong#deadline {
-  display: inline-block;
-  margin-top: 20px;
-}
 section.gallery img {
-  padding: 10px 10px 10px 0;
+  margin: 10px 10px 10px 10px;
   opacity: 0.6;
-  max-width: 400px; 
 }
-.crop {
-  height: 200px;
-  overflow: hidden;
-}
+
 section.gallery img:hover {
   opacity: 1.0;
 }
 
+.crop {
+  height: 200px;
+  overflow: hidden;
+}
+
 .schema {  
   padding: 0;
-  border: 4px dashed rgba(255, 219, 167, 0.4);
+  box-shadow: 2px 2px 2px #888888;
 }
 
 .schema img {
@@ -218,7 +229,6 @@ section.gallery img:hover {
   
 }
 
-/** BS Modal Lightbox Effect **/
 #lightbox .modal-content {
   display: inline-block;
   text-align: center;
@@ -243,3 +253,29 @@ section.gallery img:hover {
   right: -55px;
   z-index:1032;
 }
+
+/** Footer **/
+
+.footer {
+  position: relative;
+  margin-top: 50px; /* negative value of footer height */
+  height: 20em;
+  clear:both;
+  padding-top:20px;
+
+  background-image: url("images/ricepaper.png") repeat;
+  background-color: rgba(55, 102, 118, 0.7);
+  border-top: 2px solid rgba();
+  color: #fff;
+} 
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li i {
+    padding-right: 10px;
+}
+
+
+

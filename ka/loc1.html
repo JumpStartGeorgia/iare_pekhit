@@ -10,46 +10,52 @@
     <meta property="og:url" content="http://iarepekhit.org" />
     <meta property="og:image" content="" />
     <meta property="og:site_name" content="იარე ფეხით" />
-
-    <title>იარე ფეხით:არტპროექტი „უარე ქალაქს“:მარჯვენა სანაპირო</title>
-
+    
+    <title>იარე ფეხით</title>
+    
     <link rel='stylesheet' href='../css/bootstrap.min.css'>
     <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' />
     <link rel='stylesheet' href='../css/styles.css' />
   </head>
   <body>
 
-    <nav class='navbar navbar-default navbar-static-top'>
+    <nav class='header navbar navbar-default navbar-static-top'>
       <div class='container'>
         <a href='../index_ka.html' class='navbar-brand'>
-              იარე ფეხით - არტპროექტი: უარე ქალაქს
+          <img class="navbar-logo" src="../images/ip01.png" alt="Iare Pekhit Logo" />
         </a>
-
         <ul class='nav navbar-nav navbar-right'>
           
           <li><a href='../en/loc1.html'>English</a></li>
         </ul>
       </div>
     </nav>
-    
-    <div class='container'>  
-      <section class='row main'>
 
-        <header class="row">
+    <div class="row wrap">
+      <div class="container">
+
+        <section class="description">
           <div class="col-md-6">
-            <img class="loc_logo"src="../images/loc1/loc1_drawing.png" alt="Location Logo Image" />
+            <img class="loc_logo" src="../images/loc1/loc1_logo.png" alt="Location Logo Image" />
           </div>
           <div class="col-md-6">
+            <img src="../images/uare_kalaks_loc_banner.png" alt="Uare Kalaks Banner" />
             <h2>მარჯვენა სანაპირო</h2>
             <p>„იარე ფეხით“ გიწვევს არტპროექტში „უარე ქალაქს“ მონაწილეობის მისაღებად! გახდი ერთ-ერთი 5 გამარჯვებული არტისტიდან და განათავსე შენი ინსტალაცია თბილისის საზოგადოებრივ სივრცეში.</p>
             <p>ჩვენ ვეძებთ ადამიანებს, რომლებიც შეძლებენ არსებული სივრცეების გარდაქმნას, მოქალაქეების დაინტერესებას და ქალაქის საჭიროებების ხელოვნების საშუალებით გამოკვეთას. პროექტის მიზანია გავუღვივოთ მოქალაქეებს სურვილი, თავად მოუარონ ქალაქს!</p>
             <p><b>მდებარეობა:</b> მარჯვენა სანაპირო, ნიკოლოზ ბარათაშვილის ხიდის მიმდებარე ფერდობი</p>
-            <a href='../files/application_form_GEO.pdf' download class='download'><button class="btn btn-success">განაცხადების გადმოწერა!  <i class="glyphicon glyphicon-cloud-download"></i></button></a> <a href='../files/loc1.zip' download class='download'><button class="btn btn-info">მდებარეოების მასალის გადმოწერა!  <i class="glyphicon glyphicon-cloud-download"></i></button></a>
-            <strong id="deadline">განაცხადების მიღების ბოლო ვადაა:</strong> <i>ოთხშაბათი, 4 მარტი, 2015, 00:00</i>
+            <p><strong id="deadline">განაცხადების მიღების ბოლო ვადაა:</strong> <i>ოთხშაბათი, 4 მარტი, 2015, 00:00</i></p>
+            <a href='../files/application_form_GEO.pdf' download class='download'>
+              <button class="btn btn-success">სააპლიკაციო ფორმა!  <i class="glyphicon glyphicon-cloud-download"></i></button>
+            </a>
+            <a href='../files/loc1.zip' download class='download'>
+              <button class="btn btn-info">საპროექტო მასალა!  <i class="glyphicon glyphicon-cloud-download"></i></button>
+            </a>
           </div>
-        </header>
+        </section> <!-- section description -->
 
-        <section class="row geography">
+        <section class="geography">
+
           <div class="col-md-8">
             <div class="row">
               <h2>ნახაზი და რუკა</h2>
@@ -59,24 +65,26 @@
               <div class="col-md-5 col-md-offset-1 schema">
                 <div id="map"></div>
               </div>
-            </div>
+            </div>  
           </div>
+
           <div class="col-md-4">
-            <h2>სხვა მდებარეობები</h2>
+            <h2>სხვა ადგილები</h2>
               <ul class="location-list">
-                <li><a href='loc1.html'>მარჯვენა სანაპირო, ნიკოლოზ ბარათაშვილის ხიდის მიმდებარე ფერდობი</a></li>
-                <li><a href='loc2.html'>გმირთა მოედანი, ცირკის შენობის კიბეების მიმდებარე ტერიტორია</a></li>
-                <li><a href='loc3.html'>მარცხენა სანაპირო, ვახუშტის ხიდის მიმდებარე ფერდობი (დიდუბის მხარე)</a></li>
-                <li><a href='loc4.html'>რუსთაველი, რუსთაველის გამზირისა და ელბაქიძის დაღმართის კვეთა</a></li>
-                <li><a href='loc5.html'>საბურთალო, პეკინის გამზირისა და ვაჟა-ფშაველას გამზირის კვეთა</a></li>
+                <li><a href='loc1.html'>მარჯვენა სანაპირო</a></li>
+                <li><a href='loc2.html'>გმირთა მოედანი</a></li>
+                <li><a href='loc3.html'>მარცხენა სანაპირო</a></li>
+                <li><a href='loc4.html'>რუსთაველი</a></li>
+                <li><a href='loc5.html'>საბურთალო</a></li>
               </ul>
-            <a href="../index_ka.html"><button class="btn btn-default">პროექტის მთავარ გვერდზე დაბრუნება</button></a>
+            <a href="../index_en.html"><button class="btn btn-default">პროექტის მთავარ გვერდზე დაბრუნება</button></a>
           </div>
-        </section>
-        
-        <section class="row gallery">        
+
+        </section> <!-- section geography -->
+
+        <section class="gallery">        
           <h1 class="col-md-12">
-                 ფოტომასალა
+            ფოტომასალა
           </h1>
           <ul>
             <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc1/loc1_img1.jpg" alt="Location 1 Image01" /></a></li>
@@ -101,31 +109,42 @@
 
         </section>
         
-      </section>
-      </div> <!-- .container -->
-      
-      <footer>
-        <div class="container">
-          <ul class="col-md-4 col-md-offset-8 nav">
-          <h1>იარე ფეხით</h1>
-            <li>
-              <i class="glyphicon glyphicon-phone-alt"></i>
-              <span itemprop="tel">+995 32 22 353 09</span>
-            </li>
-            <li>
-              <i class="glyphicon glyphicon-envelope"></i>
-              publicart@iarepekhit.org
-            </li>
-          </ul>
-          
-        </div>
-      </footer>
+      </div> <!-- container -->
+    </div> <!-- wrap -->
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="col-md-4 col-md-offset-8 nav">
+          <h1>Iare Pekhit</h1>
+          <li>
+            <i class="glyphicon glyphicon-envelope"></i>publicart@iarepekhit.org
+          </li>
+          <li>
+            <i class="glyphicon glyphicon-map-marker"></i>I. Abashidze St., 24a
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script src='../js/bootstrap.min.js'></script>
-    <script src='../js/bootstrap-lightbox.min.js'></script>
     <script src='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js'></script>
     <script src='../js/scripts.js'></script>
-    <script src='../js/map_ka_loc1.js'></script>
+    <script>
+      var site_map = L.map('map').setView([41.697818, 44.806881], 18);
+
+      L.tileLayer('http://ec2-54-76-157-122.eu-west-1.compute.amazonaws.com/open-en/{z}/{x}/{y}.png', {
+
+      // https://a.tiles.mapbox.com/v3/jeffhaack.ic1d63ob/
+
+      // L.tileLayer('http://ec2-54-76-157-122.eu-west-1.compute.amazonaws.com/open-ka/{z}/{x}/{y}.png', {
+        attribution: '',
+        maxZoom: 18
+      }).addTo(site_map);
+
+      var marker01 = L.marker([41.697818, 44.806881]).addTo(site_map);
+      marker01.bindPopup("<b>მარჯვენა სანაპირო, ნიკოლოზ ბარათაშვილის ხიდის მიმდებარე ფერდობი</b>");
+    </script>
+    <script src="../js/google_analytics.js"></script>
   </body>
 </html>
