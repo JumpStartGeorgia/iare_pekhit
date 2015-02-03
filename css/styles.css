@@ -90,6 +90,10 @@ a.navbar-brand {
   color: #fff;
 }
 
+.navbar-default {
+  border-color: transparent;
+}
+
 .navbar-brand {
   height: 100%;
   font-weight: normal;
