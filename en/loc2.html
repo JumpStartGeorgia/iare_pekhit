@@ -14,6 +14,8 @@
     <title>Iare Pekhit</title>
     
     <link rel='stylesheet' href='../css/bootstrap.min.css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
     <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' />
     <link rel='stylesheet' href='../css/styles.css' />
   </head>
@@ -21,11 +23,10 @@
 
     <nav class='header navbar navbar-default navbar-static-top'>
       <div class='container'>
-        <a href='../index_en.html' class='navbar-brand'>
-          <img class="navbar-logo" src="../images/ip01.png" alt="Iare Pekhit Logo" />
-        </a>
         <ul class='nav navbar-nav navbar-right'>
-          
+          <li><a href="https://www.facebook.com/IarePekhit" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://instagram.com/iarepekhit" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/user/IarePekhit" target="_blank"><i class="fa fa-youtube"></i></a></li>
           <li><a href='../ka/loc2.html'>ქართული</a></li>
         </ul>
       </div>
@@ -34,85 +35,89 @@
     <div class="row wrap">
       <div class="container">
       
+        <div class="col-md-12">
+          <img class="main-banner" src="../images/uare_kalaks_banner.png" alt="Uare Pekhit Banner Image" />
+        </div>
+
         <div class="description row">
           <div class="col-md-6">
             <img class="loc_logo" src="../images/loc2/loc2_logo.png" alt="Location Logo Image" />
           </div>
-          <div class="col-md-6">
-            <img src="../images/uare_kalaks_loc_banner.png" alt="Uare Kalaks Banner" />
-            <h2>Hero Square</h2>
-            <p>Iare Pekhit wants <b>YOU</b> to take part in the public art project “Uare Qalaqs” (Care for the City). Are you going to be 1 of the 5 winning artists to present your street installation in one of the five chosen public areas of Tbilisi?</p>
-            <p>For our project, we are looking for artists, who can transform the given spaces and play with the way the inhabitants see and feel the city. Artists, who are able to drag the spectator out of their comfort zones and have them collaborate, initiate and develop new things together.</p>
-            <p><b>Site Location:</b> Hero Square, Area In Front of the Circus Building Staircase</p>
-            <p><strong id="deadline">Application Deadline:</strong> <i>March 4, 2015 00:00</i></p>
-            <a href='../files/application_form_ENG.pdf' download class='download'>
-              <button class="btn btn-success">Download Application!  <i class="glyphicon glyphicon-cloud-download"></i></button>
-            </a>
-            <a href='../files/loc2.zip' download class='download'>
-              <button class="btn btn-info">Download Site Material!  <i class="glyphicon glyphicon-cloud-download"></i></button>
-            </a>
+          <div class="col-md-6 my-well">
+              <h2>Hero Square</h2>
+              <hr />
+              <p><b>Site Location:</b> Area In front of the Circus Building Staircase</p>
+              <p>The proposed installation must be produced within the red borders drawn around the project plan. It is optional whether you choose to cover the whole marked territory for your installation. No changes may be made to any existing trees, plantings, or landscape elements. The installation must be respectful to pedestrians, drivers and vehicles. It shall not impose a threat to the existing environment or create obstacles.</p>
+              <p>We collaborate with the relevant departments of the Tbilisi City Hall and assist the artists in the technical aspects of project placement. We can help provide a power source, or other technical support as required throughout the project.</p>
+              <p><strong id="deadline">Application Deadline:</strong> <i>March 4, 2015 00:00</i></p>
+              <a href='../files/application_form_ENG.pdf' download class='download'>
+                <button class="btn btn-success">Download Application!  <i class="glyphicon glyphicon-cloud-download"></i></button>
+              </a>
+              <a href='../files/loc2.zip' download class='download'>
+                <button class="btn btn-info">Download Site Material!  <i class="glyphicon glyphicon-cloud-download"></i></button>
+              </a>
           </div>
         </div> <!-- section description -->
-        
+
         <div class="geography row">
-          
-          <div class="col-md-4">
-            <h2>Location Layout</h2>
-            <div class="schema">
-              <a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_plan_schema.jpg" alt="Site Layout"></a>
+          <div class="col-md-12">
+            <div class="col-md-4">
+              <h2>Location Plan</h2>
+              <div class="schema">
+                <a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_plan_schema.jpg" alt="Site Layout"></a>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <h2>Map</h2>      
-            <div class="schema">
-              <div id="map"></div>
+            <div class="col-md-4">
+              <h2>Map Link</h2>      
+              <div class="schema">
+                <div id="map"></div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <h2>Other Sites</h2>
-              <ul class="location-list">
+            <div class="col-md-4">
+              <h2>Other Locations</h2>
+              <ul class="location-list my-well">
                 <li><a href='loc1.html'>The Right Embankment</a></li>
                 <li><a href='loc2.html'>Hero Square</a></li>
                 <li><a href='loc3.html'>The Left Embankment</a></li>
                 <li><a href='loc4.html'>Rustaveli</a></li>
                 <li><a href='loc5.html'>Saburtalo</a></li>
               </ul>
-            <a href="../index_en.html"><button class="btn btn-default">Back To Project Homepage</button></a>
-          
-          </div>
-        </div> <!-- section geography -->
-        
-        <div class="gallery row">        
-          <h1 class="col-md-12">
-            Photo Documentation
-          </h1>
-          <ul>
-            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img1.jpg" alt="Location 2 Image01" /></a></li>
-            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img2.jpg" alt="Location 2 Image02" /></a></li>
-            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img3.jpg" alt="Location 2 Image03" /></a></li>
-            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img4.jpg" alt="Location 2 Image04" /></a></li>
-            <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img5.jpg" alt="Location 2 Image05" /></a></li>  
-          </ul>
-          
-          <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button>
-                  <div class="modal-content">
-                  <div class="modal-body">
-                    <img src="" alt="" />
-                  </div>
-                </div>
             </div>
           </div>
+        </div> <!-- section geography -->
 
+        <div class="gallery row">
+          <div class="col-md-12">
+            <h2>Photos</h2>
+            <div class="my-well">
+            <ul>
+              <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img1.jpg" alt="Location 2 Image01" /></a></li>
+              <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img2.jpg" alt="Location 2 Image02" /></a></li>
+              <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img3.jpg" alt="Location 2 Image03" /></a></li>
+              <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img4.jpg" alt="Location 2 Image04" /></a></li>
+              <li class="col-md-3 crop"><a href="#" data-toggle="modal" data-target="#lightbox"><img src="../images/loc2/loc2_img5.jpg" alt="Location 2 Image05" /></a></li>
+            </ul>
+            </div>
+          </div>
         </div> <!-- section gallery -->
+        
+        <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button>
+              <div class="modal-content">
+              <div class="modal-body">
+                <img src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
         
       </div> <!-- container -->
     </div> <!-- wrap -->
 
     <footer class="footer">
       <div class="container">
-        <ul class="col-md-4 col-md-offset-8 nav">
+        <ul class="col-md-3 col-md-offset-9 nav">
           <h1>Iare Pekhit</h1>
           <li>
             <i class="glyphicon glyphicon-envelope"></i>publicart@iarepekhit.org
@@ -137,7 +142,7 @@
       }).addTo(site_map);
 
       var marker01 = L.marker([41.714013, 44.783325]).addTo(site_map);
-      marker01.bindPopup("<b>Hero Square, Area In Front of the Circus Building Staircase</b>");
+      marker01.bindPopup("<b>Hero Square</b>");
     </script>
     <script src="../js/google_analytics.js"></script>
   </body>

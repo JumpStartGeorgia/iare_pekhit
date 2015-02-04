@@ -38,7 +38,7 @@ BPG_Nino_Elite_Book_2013.otf
 /** General Styles  **/
 
 html, body {
-  font-family: BPGNinoEliteBook2013;
+  font-family: BPGDejaVuSansExtraLight2012;
   height: 100%;
 }
 
@@ -65,7 +65,7 @@ h3 {
 }
 
 p {
-  font-family: BPGNinoEliteBook2013;  
+  
 }
 
 a {
@@ -93,6 +93,14 @@ a.navbar-brand {
 
 .navbar-default {
   border-color: transparent;
+}
+
+.navbar-nav a {
+  font-size: 1.4em;
+}
+
+.navbar-nav a:hover {
+  color: #FABD6F;
 }
 
 .navbar-brand {
@@ -123,13 +131,9 @@ img.main-banner {
   box-shadow: 2px 2px 2px #888888;
 }
 
-#contest-rules {
-  background-color: #fff;
-  margin: 0 0 10px 0;
-  padding: 2em;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px #888888;
+.first-ps {
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 #contest-rules .collapse {
@@ -154,9 +158,9 @@ img.main-banner {
 
 .location-list li {
   padding: 0 0 5px 20px;
-  display: inline-block;
+  display: block;
   position: relative;
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 0;
 }
 
 .location-list li:before {
@@ -169,7 +173,6 @@ img.main-banner {
 }
 
 #front-map {
-  padding: 30px;
   margin: 10px 0px;
   height: 400px;
   width: 100%;
@@ -201,35 +204,44 @@ aside.side-block {
 /** Location Styles **/
 
 .description {
-  padding: 2.0em 0;
+  margin: 2em 0 2em 0;
 }
+
 
 .geography {
-  padding: 2.0em 0;
+  margin: 2em 0 2em 0;
 }
-
-.gallery {
-  padding: 2.0em 0;
-}
-
-img.loc_logo {
-  opacity: 0.6;
-}
-img.loc_logo:hover {
-  opacity: 1.0;
-} 
 
 .geography ul.location-list li {
   display: block;
 }
 
-.gallery img {
-  margin: 10px;
-  opacity: 0.6;
+.gallery {
+  margin: 2em 0 2em 0.5em;
+  padding: 0 15px 0 10px;
 }
 
-.gallery img:hover {
-  opacity: 1.0;
+.gallery h2 {
+  
+}
+
+.gallery .my-well {
+  padding: 10px 15px 20px 0px;
+}
+.gallery ul {
+  display: block;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery ul li {
+  display: inline;
+  margin: 0 0px 10px 0px;
+}
+
+.gallery ul li img {
+
 }
 
 .crop {
@@ -257,9 +269,7 @@ img.loc_logo:hover {
 #lightbox .modal-content {
   display: inline-block;
   text-align: center;
-  background-color: #103A60;
-  background-image: url("../images/ricepaper.png");
-
+  background-color: #fff;
 }
 #lightbox .modal-content img {
   opacity: 1.0;
