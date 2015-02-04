@@ -17,7 +17,7 @@
 
 @font-face {
   font-family:'DejaVuSansBoldCondensedM';
-  src: url("fonts/DejaVu Sans Bold Condensed M.ttf");
+  src: url("fonts/DejaVu Sans Bold Condensed M.truetypetf");
 }
 
 @font-face {
@@ -80,9 +80,10 @@ a:hover {
 /** Header Styles **/
 
 .navbar-static-top {
-  background-color: rgba(237, 129, 36, 0.6);
+  background: url(../images/ricepaper.png) repeat;
+  background-color: #fff;
   padding: 1em;
-  box-shadow: 0px 2px 2px #888888;
+  box-shadow: 0px 2px 2px #888;
   
 }
 
@@ -98,8 +99,7 @@ a.navbar-brand {
   height: 100%;
   font-weight: normal;
   font-size: 2.6em;
-  color: #33916D;
-  box-shadow: 2px 2px 2px #888888;
+
 }
 
 .navbar-brand img {
@@ -115,8 +115,17 @@ img.main-banner {
   box-shadow: 2px 2px 2px #888888;
 }
 
+.my-well {
+  background-color: #fff;
+  padding: 1.8em;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
 #contest-rules {
-  background-color: rgba(70, 161, 178, 0.4);
+  background-color: #fff;
+  margin: 0 0 10px 0;
   padding: 2em;
   width: 95%;
   border-radius: 10px;
@@ -173,21 +182,16 @@ img.main-banner {
   padding: 10px 10px 10px 15px;
   margin-bottom: 0 0 10px 0;
   border-radius: 10px;
-  background-color: rgba(161, 205, 89, 0.6);
-  box-shadow: 2px 2px 2px #888888;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #888;
 }
 
 .side-block button {
-  display: block;
+  display: inline;
 }
 
 aside.side-block {
     margin: 10px 0 10px 0;
-}
-
-aside.side-block img {
-  display: block;
-  margin: 0 auto;
 }
 
 /** Location Styles **/
@@ -260,7 +264,7 @@ img.loc_logo:hover {
 }
 #lightbox .close {
   opacity: 1;
-  color: #333333;
+  color: #333;
   font-size: 1em; 
   background-color: rgba(0, 0, 0, 0.0);
   padding: 5px;
@@ -280,10 +284,10 @@ img.loc_logo:hover {
   clear:both;
   padding-top:20px;
 
-  background-image: url("images/ricepaper.png") repeat;
-  background-color: rgba(55, 102, 118, 0.7);
-  border-top: 2px solid rgba();
-  color: #fff;
+  background: url(../images/ricepaper.png) repeat;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 2px 2px 2px #888;
 } 
 
 .footer ul li {
