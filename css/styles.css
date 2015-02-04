@@ -127,7 +127,7 @@ img.main-banner {
   background-color: #fff;
   margin: 0 0 10px 0;
   padding: 2em;
-  width: 95%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #888888;
 }
@@ -172,7 +172,7 @@ img.main-banner {
   padding: 30px;
   margin: 10px 0px;
   height: 400px;
-  width: 95%;
+  width: 100%;
   box-shadow: 2px 2px 2px #888888;
 }
 
@@ -188,6 +188,10 @@ img.main-banner {
 
 .side-block button {
   display: inline;
+}
+
+.top-side {
+  padding: 0;
 }
 
 aside.side-block {
@@ -288,7 +292,11 @@ img.loc_logo:hover {
   background-color: #fff;
   color: #333;
   box-shadow: 2px 2px 2px #888;
-} 
+}
+
+.footer img {
+  max-height: 12em;
+}
 
 .footer ul li {
   margin-bottom: 10px;
