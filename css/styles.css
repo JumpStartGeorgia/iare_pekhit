@@ -126,6 +126,14 @@ img.main-banner {
   
 }
 
+.my-highlight {
+  padding: 1.8em;
+  margin: 0 0px 10px 0px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  font-weight: bold;
+}
+
 .my-well {
   background-color: #fff;
   padding: 1.8em;
